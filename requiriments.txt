@@ -1,0 +1,6 @@
+tweepy
+textblob
+pandas
+psycopg2
+time
+numpy
