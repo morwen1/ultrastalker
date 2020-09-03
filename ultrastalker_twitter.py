@@ -5,10 +5,10 @@ import psycopg2
 import time
 class UtlrastalkerTwitter():
     def __init__(self):
-        self.consumer_key = 'MXxkjXdFDVsZ0nZHZP5pQ7ZRl'
-        self.consumer_secret = 'WacadTfwtATEonKfH0zdZYO0rERkKeVmIvKC0mgkchs1fkLyXU'
-        self.acces_token = '830475844141322240-Lzvz5a59yNngZYUwoJUrmYNHvZ2aYK0'
-        self.acces_token_secret = 'c4fJkuPbLi4x6U1cXtoGW1ZmpRu6lHlupb408TupWOiRH'
+        self.consumer_key = ''
+        self.consumer_secret = ''
+        self.acces_token = ''
+        self.acces_token_secret = ''
         self.auth = tweepy.OAuthHandler(self.consumer_key, self.consumer_secret)
         self.auth.set_access_token(self.acces_token, self.acces_token_secret)
         self.api = tweepy.API(self.auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True, compression=True)
